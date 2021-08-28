@@ -29,7 +29,7 @@ The following is the list of hyperparameters of the DQN algorithm. *Most of the 
 * Update Frequency: This is the frequency with which the local Q-Network is updated. For this problem, I updated the local Q-network after 4 moves. 
 
 ## Training the Agent
-With the choice of hyperparameters used above, the algorithm **trained the agent in between 400 and 600 episodes.** The training graph is shown below. During testing, the trained agent **achieves a score of 18** before the episode terminates.
+With the choice of hyperparameters used above, the algorithm **trained the agent in between 400 and 600 episodes (The final agent exceeded a score of 13 over 100 episodes in 499 episodes).** The training graph is shown below. During testing, the trained agent **achieves a score of 18** before the episode terminates.
 
 ![Training graph](training-progress.png)
 
